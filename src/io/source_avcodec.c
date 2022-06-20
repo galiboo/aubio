@@ -296,7 +296,7 @@ aubio_source_avcodec_t * new_aubio_source_avcodec(const char_t * path,
 
   s->eof = 0;
 
-  //av_log_set_level(AV_LOG_QUIET);
+  av_log_set_level(AV_LOG_QUIET);
 
   return s;
 
